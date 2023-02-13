@@ -1,99 +1,36 @@
 ---
 title: "About"
 permalink: "/about/"
+mathjax: true
 layout: page
 ---
 
-## Installation
+# Project Proposal 
 
-Just fork this [repository](https://github.com/niklasbuschmann/contrast) and adjust the `_config.yml` to use with [Github Pages](https://pages.github.com/) and your page is done.
+## Background
 
-## Features
+Realistic locomotion in robots has been a long-standing challenge. There has been great success with robots like Laikago in mimicking animal locomotion with agility. Laikago has 18 degrees of freedom. Robots like Laikago with a high number of degrees of freedom and multiple sensors have had success with locomotion. Cheaper robots like Bittle with only 8 degrees of freedom and fewer sensors have not yet been able to achieve the same success. It would be an interesting development if a much cheaper robot could perform as well as its more expensive counterparts. Similar to how the Laikago robot was trained we aim to train the Bittle robot to walk using reinforcement learning. Achieving that result with the Bittle would help us gain useful information regarding approximating the sensors. 
 
- - supports dark mode on macOS Mojave
- - optional sidebar
- - MathJax support
- - no external ressources
- - included archive page
- - supports pagination
- - feed generation
- - responsive
- - syntax highlighting
- - supports comments via [disqus](https://disqus.com/) or [isso](http://posativ.org/isso/)
+## Timeline
+    - Add Raspberry Pi on Arduino
+    - Get Isaac Gym running
+    - Make sure IMU data is matching simulation data
+    - Use Reinforcement Learning on Bittle 
+    - Get Bittle walking
 
-## Based on
 
-- [Hyde](https://github.com/poole/hyde)
-- [Minima](https://github.com/jekyll/minima)
-- [Lagrange](https://github.com/LeNPaul/Lagrange)
-- [Font Awesome](http://fontawesome.io/)
-- [KaTeX](https://katex.org/)
-- [Pygments](https://github.com/richleland/pygments-css)
+## Questions?
+    - How do we approximate the sensing ?
+    - How to better control the actuator ?
+    - How to come up with a new learning method that builds off the complex stuff?
 
-## Installation (jekyll-remote-theme method)
+## Resources
+    - [Petoi Bittle Manual](https://bittle.petoi.com/)
+    - Learning Agile Robotic Locomotion Skills by Imitating Animals
+    - Jason’s Repo
+    - Jason Raspberry Pi Setup 
+    - Jason’s Open Cat Repo
+    - PyBullet Quickstart guide
+    - Isaac Gym Video
 
-You can use this theme with the `jekyll-remote-theme` plugin. Just create an empty repo, copy over the `index.html` file and add this to your `_config.yml`:
 
-```yaml
-remote_theme: niklasbuschmann/contrast@v2.11
-
-plugins:
-  - jekyll-remote-theme
-```
-
-Note: to enable icons you also need to copy over the `_data` folder.
-
-## Config
-
-Your `_config.yml` could for example look like this:
-
-```yaml
-title: "Blog Title"
-author: "Blog Author"
-description: "My personal blog about ... something"
-permalink: /:title/
-lang: "en"
-excerpt_separator: "\n\n\n"
-date_format: "%B %d, %Y"
-
-# Layout
-
-show_excerpts: true        # show article excerpts on the home page
-show_frame: true           # adds a gray frame to the site
-show_sidebar: false        # show a sidebar instead of the usual header
-
-# Menu
-
-navigation:                # accepts {file, title, url, icon, sidebaricon}
-  - {file: "index.html"}
-  - {file: "README.md"}
-
-external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
-  - {title: Mail, icon: envelope, url: "mailto:niklasbuschmann@users.noreply.github.com"}
-  - {title: Github, icon: github, url: "https://github.com/niklasbuschmann/contrast"}
-  - {title: Subscribe, icon: rss, url: "/feed.xml"}
-
-comments:
-#  disqus_shortname: ""    # see https://disqus.com/
-#  isso_domain: ""         # see https://posativ.org/isso/
-
-plugins:
- - jekyll-feed
-
-```
-
-## MathJax
-
-Contrast comes preinstalled with a leightweight alternative to MathJax called [KaTeX](https://katex.org/). To display equations in a post simply set `mathjax: true` in the article's front matter.
-
-## License
-
-[public domain](http://unlicense.org/)
-
-## Screenshots
-
-![screenshot](https://user-images.githubusercontent.com/4943215/109431850-cd711780-7a08-11eb-8601-2763f2ee6bb4.png)
-
-![screenshot](https://user-images.githubusercontent.com/4943215/109431832-b6cac080-7a08-11eb-9c5e-a058680c23a1.png)
-
-![screenshot](https://user-images.githubusercontent.com/4943215/73125194-5f0b8b80-3fa4-11ea-805c-8387187503ad.png)

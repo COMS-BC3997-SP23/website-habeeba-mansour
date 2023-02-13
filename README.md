@@ -5,7 +5,7 @@ mathjax: true
 layout: page
 ---
 
-# Project Proposal 
+# Project Proposal #
 
 ## Background
 

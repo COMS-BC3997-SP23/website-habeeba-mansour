@@ -25,11 +25,11 @@ Realistic locomotion in robots has been a long-standing challenge. There has bee
     
 ## Resources
 * [Petoi Bittle Manual](https://bittle.petoi.com/)
-* Learning Agile Robotic Locomotion Skills by Imitating Animals
-* Jason’s Repo
-* Jason Raspberry Pi Setup 
-* Jason’s Open Cat Repo
-* PyBullet Quickstart guide
-* Isaac Gym Video
+* [Learning Agile Robotic Locomotion Skills by Imitating Animals](https://xbpeng.github.io/projects/Robotic_Imitation/2020_Robotic_Imitation.pdf)
+* [Jason’s Repo](https://github.com/jasonjabbour/motion_imitation_tiny_robots)
+* [Jason Raspberry Pi Setup](https://github.com/jasonjabbour/motion_imitation_tiny_robots/blob/master/bittle_controller/Raspberry%20Pi%20Zero%202W%20Setup.pdf)
+* [Jason’s Open Cat Repo](https://github.com/jasonjabbour/Tiny-Robot-Motion-Imitation-OpenCat)
+* [PyBullet Quickstart guide](http://dirkmittler.homeip.net/blend4web_ce/uranium/bullet/docs/pybullet_quickstartguide.pdf)
+* [Isaac Gym Video](https://www.youtube.com/watch?v=d9HEhXH5_hs)
 
 

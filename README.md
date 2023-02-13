@@ -1,6 +1,6 @@
 ---
-title: "About"
-permalink: "/about/"
+title: "Project Proposal"
+permalink: "/Project Proposal/"
 mathjax: true
 layout: page
 ---

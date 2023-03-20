@@ -15,6 +15,8 @@ categories: media
 
 * Senior
 * CS and Chemistry major
+* Do research at A<sup>2</sup>R Lab
+
 
 ### Project Background
 
